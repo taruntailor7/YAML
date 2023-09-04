@@ -1,0 +1,8 @@
+---
+school:
+- name: DPS
+  principal: Someone
+  students:
+  - rollNo: 7
+    name: Tarun Tailor
+    marks: 67

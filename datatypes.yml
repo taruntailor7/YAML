@@ -1,0 +1,59 @@
+# String variables
+myself: Tarun Tailor
+fruit: "apple"
+job: 'sde'
+
+bio: | 
+  hey my name is tarun tailor.
+  i am a very nice dude.
+
+# Write a single line in multiple lines
+message: >
+  this will
+  all be 
+  in one single line
+---
+# same as 
+message: this will all be in one single line
+
+number: 5473
+marks: 98.67
+booleanValue: No # n, N, false, False, FALSE 
+# same for true -> Yes, yes, y, Y, true, True, TRUE
+
+## Specify the type
+# Number
+zero: !!int 0
+positiveNum: !!int 45
+negativeNum: !!int -45
+binaryNum: !!int 0011001
+octalNum: !!int 06574
+hexaNum: !!int 0x45
+commaValue: !!int +540000 # 540,000
+exponential  numbers: 6.023E56
+
+# String
+messages: !!str this is some message
+
+# Boolean
+bool: !!bool false
+
+#floating point numbers
+mark: !!float 56.98
+infinite: !!float .inf
+not a num: .nan
+
+#null
+surname: !!null Null # or null NuLL ~
+~: thid is a null key
+
+# date and time
+date: !!timestamp 2002-12-14
+india time: !!timestamp  2002-12-15T02:59:43.10 +5:30 
+no time zone: !!timestamp  2002-12-15T02:59:43.10
+
+
+
+
+
+

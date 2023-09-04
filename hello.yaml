@@ -1,0 +1,22 @@
+"apple" : "I am a red fruit"
+1: "This is Tarun's roll number"
+# for seperating documents use this ( --- )
+---
+# lists
+ - apple
+ - mango
+ - banana
+ - Apple
+# for seperating documents use this ( --- )
+---
+# Array 
+cities:
+ - new delhi
+ - mumbai
+ - gujrat
+---
+cities: [new delhi, mumbai]
+---
+{mango: "yellow fruit", age: 23}
+...
+# for ending documents use this ( ... )
